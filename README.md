@@ -43,7 +43,7 @@ Coloca todos os valores da coluna na mesma escala (0 e 1)
 - Constante de segurança para evitar erros matemáticos de divisão por zero
 - Evita dominância, os valores da coluna kilometragem são altos enquanto que na coluna Motor os valores são baixos, isso evita que o algoritmo entenda que km seja mais importante por serem maiores
 
-- ### Divisão entre teino e teste
+### Divisão entre teino e teste
 
 - seed = fixa um número garantindo que o embarralhamento seja sempre da mesma forma
 - indices = cria uma lista do tamanho do dataset e embaralha aleatoriamente
@@ -54,7 +54,7 @@ Coloca todos os valores da coluna na mesma escala (0 e 1)
 
 - Importante para qie a árvore decida onde fazer o corte nos dados - se MSE baixo significa que os preços estão próximos da média, dessa forma escolhe grupos com preços similares
 
-- ## Algoritmo Regressor de Árvore de Decisão
+## Algoritmo Regressor de Árvore de Decisão
 
 - O algoritmo possui um limitador evitando que a árvore cresça demais e fique complexa (overfitting)
 - número mínimo de amostras em um nó para ser dividido
@@ -113,7 +113,6 @@ Com a profundidade ajustada para **10 níveis**, o modelo apresentou os seguinte
 - O valor de **R² ≈ 0,98** demonstra que o modelo é capaz de explicar cerca de **98% da variância do preço dos veículos**, caracterizando um desempenho excelente.
 
 A análise visual por meio dos gráficos Real vs. Predito e de Resíduos reforça esses resultados, evidenciando boa aderência do modelo aos dados e ausência de padrões sistemáticos de erro relevantes
-
 
 ## Dificuldades e Limitações
 
