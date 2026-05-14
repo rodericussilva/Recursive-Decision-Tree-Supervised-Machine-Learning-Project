@@ -1,4 +1,4 @@
-# NP2 — Aprendizado Supervisionado
+# Aprendizado Supervisionado
 ## Decision Tree Regressor — Implementação From Scratch
 
 **Disciplina:** Aprendizado Supervisionado  
